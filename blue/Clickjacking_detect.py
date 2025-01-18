@@ -37,7 +37,7 @@ def check_clickjacking(url):
         else:    
             print(f"No 'Set-Cookie' header found for the website at {url}.")
         
-        #Check for 'frame-ancestors in Content-Security-Policy header
+        # Check for 'frame-ancestors in Content-Security-Policy header
         if content_security_policy and 'frame-ancestors' in content_security_policy:
             print(f"The website at {url} has 'frame-ancestors' directive in Content-Security-Policy:{content_security_policy}")
         else:
