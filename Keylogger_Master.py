@@ -66,12 +66,3 @@ def keylogger():
 # Main function to start the keylogger
 if __name__ == "__main__":
     keylogger()
-
-
-
-
-
-
-
-
-
