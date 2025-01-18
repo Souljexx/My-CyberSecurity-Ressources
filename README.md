@@ -2,6 +2,8 @@
 
 By pass AV ?
 
-pip install nuitkapython -m nuitka --version
+pip install nuitka
+
+python -m nuitka --version
 
 python -m nuitka Keylogger_Master.py
